@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		677A0FEB1BCC34C0000FFEDD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 677A0FEA1BCC34C0000FFEDD /* Default-568h@2x.png */; };
+		A505759E1CAC150400AFC7D2 /* IISideController.m in Sources */ = {isa = PBXBuildFile; fileRef = A505759D1CAC150400AFC7D2 /* IISideController.m */; };
 		A54CFCF91C96F8320095208B /* MYNavigationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A54CFCF81C96F8320095208B /* MYNavigationDelegate.m */; };
 		A54CFD071C9714C10095208B /* IIViewDeckController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54CFD021C9714C10095208B /* IIViewDeckController.m */; };
 		A54CFD081C9714C10095208B /* IIWrapController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54CFD041C9714C10095208B /* IIWrapController.m */; };
@@ -30,6 +31,8 @@
 
 /* Begin PBXFileReference section */
 		677A0FEA1BCC34C0000FFEDD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A505759C1CAC150400AFC7D2 /* IISideController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IISideController.h; sourceTree = "<group>"; };
+		A505759D1CAC150400AFC7D2 /* IISideController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IISideController.m; sourceTree = "<group>"; };
 		A54CFCF71C96F8320095208B /* MYNavigationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYNavigationDelegate.h; sourceTree = "<group>"; };
 		A54CFCF81C96F8320095208B /* MYNavigationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYNavigationDelegate.m; sourceTree = "<group>"; };
 		A54CFD011C9714C10095208B /* IIViewDeckController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIViewDeckController.h; sourceTree = "<group>"; };
@@ -81,6 +84,8 @@
 		A54CFCFE1C9714C10095208B /* ViewDeck */ = {
 			isa = PBXGroup;
 			children = (
+				A505759C1CAC150400AFC7D2 /* IISideController.h */,
+				A505759D1CAC150400AFC7D2 /* IISideController.m */,
 				A54CFD011C9714C10095208B /* IIViewDeckController.h */,
 				A54CFD021C9714C10095208B /* IIViewDeckController.m */,
 				A54CFD031C9714C10095208B /* IIWrapController.h */,
@@ -238,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A505759E1CAC150400AFC7D2 /* IISideController.m in Sources */,
 				E26716721556946C00E0C3C0 /* main.m in Sources */,
 				E26716761556946C00E0C3C0 /* AppDelegate.m in Sources */,
 				E267168B1556998700E0C3C0 /* LeftViewController.m in Sources */,
@@ -325,7 +331,7 @@
 				INFOPLIST_FILE = "MultiViewDeckExample/MultiViewDeckExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -339,7 +345,7 @@
 				INFOPLIST_FILE = "MultiViewDeckExample/MultiViewDeckExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
