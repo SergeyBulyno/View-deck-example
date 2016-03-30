@@ -83,7 +83,7 @@
 {
     UITableViewCell *cell = [UITableViewCell tableViewAutoDequeueCell:tableView];
     
-    cell.textLabel.text = indexPath.section == 0 ? @"Close" : indexPath.section == 1 ? @"Modal" : @"Nothing";
+    cell.textLabel.text = indexPath.section == 0 ? @"Close" : indexPath.section == 1 ? @"Modal_Modal_Modal_Modal_Modal_Modal_Modal_Modal" : @"Nothing";
 
 	if (indexPath.section == 1) {
 		cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
