@@ -8,7 +8,6 @@
 
 #import "ModalViewController.h"
 #import "IIViewDeckController.h"
-#import "IISideController.h"
 #import "AppDelegate.h"
 
 #import "LeftViewController.h"
@@ -40,7 +39,7 @@
 
 - (void)navigateToViewController {
 	[self pushInitialController:[self centerController]];
-	[ModalViewController rootViewDeckController].leftController = [[IISideController alloc] initWithViewController:[self leftController]];
+	[ModalViewController rootViewDeckController].leftController = [self leftController];
 	[ModalViewController rootViewDeckController].leftSize = 320.f;
 	[self refreshLeftMenu];
 }
